@@ -14,4 +14,7 @@ void twoDFunction()
     TColor::CreateGradientColorTable(Number,Length,Red,Green,Blue,nb);
     twoDFunction->SetContour(nb);
     twoDFunction->Draw("colz");
+
+
+    can->SaveAs("twoDFunction.pdf");
 }
